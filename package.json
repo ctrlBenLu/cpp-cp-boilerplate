@@ -1,0 +1,25 @@
+{
+  "name": "cpp-cp-boilerplate",
+  "displayName": "C++ CP Boilerplate",
+  "description": "A C++ boilerplate for competitive programming",
+  "publisher": "ctrlBenLu",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctrlBenLu/cpp-cp-boilerplate.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
