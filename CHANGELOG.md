@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [0.0.3] - 2023-06-05
+
+### Changed
+
+- Removed redundant std:: after using namespace std;
+
 ## [0.0.2] - 2023-06-04
 
 ### Added
