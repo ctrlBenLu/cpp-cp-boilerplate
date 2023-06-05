@@ -3,7 +3,8 @@
   "displayName": "C++ CP Boilerplate",
   "description": "A C++ boilerplate for competitive programming",
   "publisher": "ctrlBenLu",
-  "version": "0.0.1",
+  "icon": "trophy.png",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.78.0"
   },
