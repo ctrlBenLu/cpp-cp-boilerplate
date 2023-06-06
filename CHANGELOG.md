@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [0.0.4] - 2023-06-06
+
+### Changed
+
+- Fixed README not linking to right image file
+
 ## [0.0.3] - 2023-06-05
 
 ### Changed

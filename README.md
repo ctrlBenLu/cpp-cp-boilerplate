@@ -4,7 +4,7 @@ Forget the trivialities and focus on the solution 🏆!
 
 ## Description
 
-<img src="code.png" width="400" height="368" />
+<img src="sample.png" width="400" height="368" />
 
 This snippet is a bare-bones C++ boilerplate meant for competitive programming.  
 The code takes inspiration from *Jinagly*'s, *Tourist*'s, and other high ranking competitive programmer's submissions.  
