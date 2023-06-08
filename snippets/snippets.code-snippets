@@ -1,8 +1,8 @@
 {
-    "cpp cp boilerplate": {
+    "barebones": {
         "prefix": "cpb",
         "scope": "cpp",
-        "description": "C++ boilerplate for competitive programming",
+        "description": "Barebones C++ boilerplate for competitive programming",
         "body": [
             "#include <bits/stdc++.h>",
             "using namespace std;",
@@ -12,6 +12,33 @@
             "  cin.tie(nullptr);",
             "",
             "  $0",
+            "",
+            "  return 0;",
+            "}"
+        ]
+    },
+    "barebones with testcases": {
+        "prefix": "cpbt",
+        "scope": "cpp",
+        "description": "Barebones C++ boilerplate for competitive programming with testcases",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "",
+            "void solve() {",
+            "  $0",
+            "}",
+            "",
+            "int main() {",
+            "  ios::sync_with_stdio(false);",
+            "  cin.tie(nullptr);",
+            "",
+            "  int t;",
+            "  cin >> t;",
+            "",
+            "while (t--) {",
+            "  solve();",
+            "}",
             "",
             "  return 0;",
             "}"

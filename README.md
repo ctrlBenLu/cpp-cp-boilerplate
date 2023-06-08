@@ -14,7 +14,7 @@ More features will be added in the future.
 ## Usage
 
 1. Find and install "cpp-cp-boilerplate" from VSCode Marketplace or the extensions tab
-2. Type `cpb`
+2. Type `cpb` or `cpbt`
 3. Hit enter
 4. Code!
 
