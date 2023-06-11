@@ -4,11 +4,17 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [0.0.6] - 2023-06-11
+
+### Changed
+
+- Added missing indentation for `cpbt`
+
 ## [0.0.5] - 2023-06-06
 
 ### Added
 
-- New snippet "cpbt" meant for problems with multiple testcases and a testcase count
+- New snippet `cpbt` meant for problems with multiple testcases and a testcase count
 
 ## [0.0.4] - 2023-06-06
 
