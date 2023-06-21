@@ -2,7 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [0.1.0] - 2023-06-21
+
+### Changed
+
+- Updated README
+
+## [0.1.0] - 2023-06-21
+
+### Added
+
+- Added new snippet `for` which is a customizable for loop
+- Added new snippet `fori` which is a customizable for i loop
+- Added new snippet `forj` which is a customizable for j loop
+- Added new snippet `cint` that initializes a new integer from input
+- Added new snippet `cstr` that initializes a new string from input
+
+### Changed
+
+- Replaced hardcoded spaces with `\t`
+- Renamed project from "C++ CP Boilerplate" to "C++ CP Snippets"
 
 ## [0.0.6] - 2023-06-11
 

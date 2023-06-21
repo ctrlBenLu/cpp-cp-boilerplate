@@ -8,12 +8,12 @@
             "using namespace std;",
             "",
             "int main() {",
-            "  ios::sync_with_stdio(false);",
-            "  cin.tie(nullptr);",
+            "\tios::sync_with_stdio(false);",
+            "\tcin.tie(nullptr);",
             "",
-            "  $0",
+            "\t$0",
             "",
-            "  return 0;",
+            "\treturn 0;",
             "}"
         ]
     },
@@ -26,22 +26,68 @@
             "using namespace std;",
             "",
             "void solve() {",
-            "  $0",
+            "\t$0",
             "}",
             "",
             "int main() {",
-            "  ios::sync_with_stdio(false);",
-            "  cin.tie(nullptr);",
+            "\tios::sync_with_stdio(false);",
+            "\tcin.tie(nullptr);",
             "",
-            "  int t;",
-            "  cin >> t;",
+            "\tint t;",
+            "\tcin >> t;",
             "",
-            "  while (t--) {",
-            "    solve();",
-            "  }",
+            "\twhile (t--) {",
+            "\t\tsolve();",
+            "\t}",
             "",
-            "  return 0;",
+            "\treturn 0;",
             "}"
+        ]
+    },
+    "for loop": {
+        "prefix": "for",
+        "scope": "cpp",
+        "description": "For loop",
+        "body": [
+            "for (${1:initialization}; ${2:condition}; ${3:statement}) {",
+            "\t$0",
+            "}"
+        ]
+    },
+    "for i loop": {
+        "prefix": "fori",
+        "scope": "cpp",
+        "description": "For i is smaller than loop",
+        "body": [
+            "for (int i = 0; i < ${1:n}; i++) {",
+            "\t$0",
+            "}"
+        ]
+    },
+    "for j loop": {
+        "prefix": "forj",
+        "scope": "cpp",
+        "description": "For j is smaller than loop",
+        "body": [
+            "for (int j = 0; j < ${1:n}; j++) {",
+            "\t$0",
+            "}"
+        ]
+    },
+    "initialize new int": {
+        "prefix": "cint",
+        "scope": "cpp",
+        "description": "Initializes a new integer from input",
+        "body": [
+            "int ${1:foobar}; cin >> ${2:foobar}"
+        ]
+    },
+    "initialize new string": {
+        "prefix": "cstr",
+        "scope": "cpp",
+        "description": "Initializes a new string from input",
+        "body": [
+            "string ${1:foobar}; cin >> ${2:foobar}"
         ]
     }
 }

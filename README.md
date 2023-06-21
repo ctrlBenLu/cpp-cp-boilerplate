@@ -1,4 +1,4 @@
-# C++ Competitive Programming Boilerplate
+# C++ Competitive Programming Snippets
 
 Forget the trivialities and focus on the solution 🏆!
 
@@ -6,17 +6,25 @@ Forget the trivialities and focus on the solution 🏆!
 
 <img src="sample.png" width="400" height="368" />
 
-This snippet is a bare-bones C++ boilerplate meant for competitive programming.  
+These snippets are meant for competitive programming and are written in C++.  
 The code takes inspiration from *Jinagly*'s, *Tourist*'s, and other high ranking competitive programmer's submissions.  
   
 More features will be added in the future.  
 
+## Snippets
+
+`cpb` - Basic boilerplate  
+`cpbt` - Basic boilerplate with testcases  
+`for` - Customizable for loop  
+`fori` - Incrementing for i loop while smaller than n  
+`forj` - Incrementing for j loop while smaller than n  
+`cint` - Initializes new integer from input  
+`cstr` - Initializes new string from input  
+
 ## Usage
 
-1. Find and install "cpp-cp-boilerplate" from VSCode Marketplace or the extensions tab
-2. Type `cpb` or `cpbt`
-3. Hit enter
-4. Code!
+Snippets will be shown in intellisense.  
+Just type the name of a snippet and you're good to go!
 
 ## Contribute
   
